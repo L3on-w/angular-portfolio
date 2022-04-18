@@ -1,0 +1,16 @@
+<form [formGroup]="contactFormGroup" (submit)="submitForm()">
+    <label for="first name">First Name: </label>
+    <input type="text" formControlName="firstName">
+
+    <label for="last name">Last Name: </label>
+    <input type="text" formControlName="lastName">
+
+    <label for="email address">Email</label>
+    <input type="email" formControlName="emailAddress">
+
+    <button type="submit">Submit thy form</button>
+</form>
+
+<pre>
+    {{ contactFormGroup.value | json}}
+</pre>

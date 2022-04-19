@@ -4,3 +4,16 @@
     text-decoration-style: solid;
     text-decoration: underline;
 }
+
+.main-body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blog{
+    flex-basis: 50%;
+}
+
+.hometown{
+    flex-basis: 50%;
+}

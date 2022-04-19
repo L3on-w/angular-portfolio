@@ -2,3 +2,21 @@
     display: flex;
     justify-content: center;
 }
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.bio{
+    flex-basis: 50%;
+    height: 100%;
+    flex-direction: row;
+    background-color: #D83F2A;
+
+}
+
+.interests{
+    flex-basis: 50%;
+    height: 100%;
+    flex-direction: row;
+}
